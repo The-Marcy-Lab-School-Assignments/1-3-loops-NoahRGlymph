@@ -35,11 +35,6 @@ const countdown5to0 = () => {
 countdown5to0();
 
 const loopUpToNum = (num) => {
-  if (num <= 0) {
-    console.log("The input should be a positive number greater than 0.");
-    return;
-  }
-
   for (let i = 0; i < num; i++) {
     console.log(i);
   }
